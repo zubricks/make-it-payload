@@ -1,0 +1,4 @@
+interface:
+  display_name: "Make It Payload"
+  short_description: "Review and align finished projects with Payload"
+  default_prompt: "Use $make-it-payload to review this finished Payload feature and align its full Admin experience: layout, navigation, actions, data displays, feedback states, forms, styling, accessibility, and integration while preserving its behavior."
