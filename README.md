@@ -1,3 +1,5 @@
+<img width="1200" height="375" alt="make-it-payload-header (1)" src="https://github.com/user-attachments/assets/de9176aa-3c80-485c-9b6e-247c9697bdce" />
+
 # Make It Payload
 
 An Agent Skill for **Payload 3 and 4**, reviewing and improving finished Payload plugins and custom Admin UI so they use the components, patterns, and behavior Payload already provides. If you're building with/inside of Payload this skill will help ensure that things are done the right way to save you time in the long run.
