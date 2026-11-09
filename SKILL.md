@@ -58,7 +58,7 @@ Do not report a feature as native merely because it imports a few Payload compon
 
 ## Remediate when authorized
 
-Prefer supported Payload layouts, compositions, and components that fit the journey and state model; use smaller primitives when an existing composition does not fit. Preserve navigation destinations, active states, search/filter state, action availability, selection, and recovery behavior.
+Prefer supported Payload layouts, compositions, and components that fit the journey and state model; use smaller primitives when an existing composition does not fit. Preserve navigation destinations, active states, search/filter state, action availability, selection, and recovery behavior. Check rendered composition after replacement: avoid unintentionally full-width actions and normally match the visible heights of adjacent inputs/selects and buttons using supported variants. Do not assume equal size prop names yield equal heights.
 
 For forms, prefer the smallest public Payload primitive that fits the existing state model. A standalone controlled editor usually needs input primitives; a document field should participate in Payload's form APIs. Do not force unrelated local state into document submission or add a form provider merely to satisfy a component's requirements.
 
